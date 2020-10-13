@@ -1,0 +1,318 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  color: #000;
+  line-height: 1.6;
+  font-size: 1.25rem;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.accordion>.card .card-header {
+  margin-bottom: 2px !important;
+}
+
+.card-header {
+  padding: 0 10px;
+  margin: 20px 0 10px 0;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0 !important;
+}
+
+.card-body {
+  padding-top: 0;
+  padding-left: 15px;
+}
+
+.card-body-sub {
+  font-size:1.2rem;
+  margin-bottom:10px;
+  font-weight:600;
+}
+
+.card-body-des {
+  font-size:1.05rem;
+  margin-bottom:20px;
+}
+
+.card-body-bul {
+  font-size:1.05rem;
+  margin-bottom:10px;
+}
+
+.ti-check {
+  color: #fff
+}
+
+
+.card-hover:hover {
+  transform: translateX(-10px);
+}
+
+.card {
+  border-radius: 0 !important;
+  background-color: #fff;
+  color: #000;
+  border: #000 3px solid;
+  margin: 15px 0 10px 0;
+  padding: 0 1px;
+
+}
+
+.btn-link {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.25s;
+}
+
+
+.btn-link:focus {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.25s;
+}
+
+.btn-link:hover {
+  transform: translateX(10px);
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+}
+
+.btn-dark-micromasters {
+  color: #fff;
+  /*background-image: linear-gradient(97deg, #23419f,
+          #4f1079);
+  background-color:
+      hsla(0, 0%, 100%, .21);
+  background-blend-mode: lighten;*/
+  padding: 5px 0;
+  margin: 10px 20px;
+  text-align: center;
+  background-color: #ef445f;
+  font-weight: 600;
+}
+
+.btn-dark-micromasters:hover {
+  color: #fff;
+  background-color: #000;
+  font-weight: 600;
+  /*background-color:
+      hsla(0, 0%, 0%, 1);
+  background-blend-mode: normal;*/
+}
+
+.btn-dark-bootcamps {
+  color: #fff;
+  /*background-image: linear-gradient(97deg, #23419f,
+          #4f1079);
+  background-color:
+      hsla(0, 0%, 100%, .21);
+  background-blend-mode: lighten;*/
+  padding: 5px 0;
+  margin: 10px 20px;
+  text-align: center;
+  background-color: #ef445f;
+  font-weight: 600;
+}
+
+.btn-dark-bootcamps:hover {
+  color: #fff;
+  background-color: #000;
+  font-weight: 600;
+  /*background-color:
+      hsla(0, 0%, 0%, 1);
+  background-blend-mode: normal;*/
+}
+
+.btn-dark-liveonline {
+  color: #fff;
+  /*background-image: linear-gradient(97deg, #23419f,
+          #4f1079);
+  background-color:
+      hsla(0, 0%, 100%, .21);
+  background-blend-mode: lighten;*/
+  padding: 5px 0;
+  margin: 10px 20px;
+  text-align: center;
+  background-color: #ef445f;
+  font-weight: 600;
+}
+
+.btn-dark-liveonline:hover {
+  color: #fff;
+  background-color: #000;
+  font-weight: 600;
+  /*background-color:
+      hsla(0, 0%, 0%, 1);
+  background-blend-mode: normal;*/
+}
+
+
+.btn-dark-capsules {
+  color: #fff;
+  /*background-image: linear-gradient(97deg, #23419f,
+          #4f1079);
+  background-color:
+      hsla(0, 0%, 100%, .21);
+  background-blend-mode: lighten;*/
+  padding: 5px 0;
+  margin: 10px 20px;
+  text-align: center;
+  background-color: #4CAF50;
+  font-weight: 600;
+}
+
+.btn-dark-capsules:hover {
+  color: #fff;
+  background-color: #000;
+  font-weight: 600;
+  /*background-color:
+      hsla(0, 0%, 0%, 1);
+  background-blend-mode: normal;*/
+}
+
+
+.btn-dark-linkedin-learning {
+  color: #fff;
+  /*background-image: linear-gradient(97deg, #23419f,
+          #4f1079);
+  background-color:
+      hsla(0, 0%, 100%, .21);
+  background-blend-mode: lighten;*/
+  padding: 5px 0;
+  margin: 10px 20px;
+  text-align: center;
+  background-color: #ef445f;
+  font-weight: 600;
+}
+
+.btn-dark-linkedin-learning:hover {
+  color: #fff;
+  background-color: #000;
+  font-weight: 600;
+  /*background-color:
+      hsla(0, 0%, 0%, 1);
+  background-blend-mode: normal;*/
+}
+
+.btn-dark-linkedin {
+  color: #fff;
+  /*background-image: linear-gradient(97deg, #23419f,
+          #4f1079);
+  background-color:
+      hsla(0, 0%, 100%, .21);
+  background-blend-mode: lighten;*/
+  padding: 5px 0;
+  margin: 10px 20px;
+  text-align: center;
+  background-color: #941999;
+  font-weight: 600;
+}
+
+.btn-dark-linkedin:hover {
+  color: #fff;
+  background-color: #000;
+  font-weight: 600;
+  /*background-color:
+      hsla(0, 0%, 0%, 1);
+  background-blend-mode: normal;*/
+}
+
+.expand {
+  font-weight: 500;
+  font-size: .8rem;
+  color: #b3b3b3;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+
+.accordion-style-4 .card {
+  margin-bottom: 25px;
+  border:none;
+}
+
+.accordion-style-4 .card-header {
+  padding-right: 60px;
+  padding-left:25px;
+  position: relative;
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
+  font-weight:600;
+  margin-bottom:15px;
+}
+
+.accordion-style-4 .card-header[aria-expanded="true"]:before,
+.accordion-style-4 .card-header[aria-expanded="false"]:before {
+  bottom: -1px;
+  color: #000000;
+  content: "\f067";
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.25rem;
+  right: 0;
+  line-height: 1.6;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  vertical-align: middle;
+  width: 50px;
+  transform: rotate(0deg);
+  transition: 0.3s linear all;
+}
+
+.accordion-style-4 .card-header[aria-expanded="false"]:before {
+  transform: rotate(0deg);
+  transition: 0.3s linear all;
+}
+
+.accordion-style-4 #accordion-4-second .card {
+  background-color: #fff;
+  border: 3px solid #000;
+  color: #000;
+}
+
+.accordion-style-4 #accordion-4-second .card .card-body {
+  border-top: none;
+}
+
+.accordion-style-4 #accordion-4-second .card-header[aria-expanded="true"]::before,
+.accordion-style-4 #accordion-4-second .card-header[aria-expanded="false"]::before {
+  bottom: -1px;
+  color: #000;
+  content: "\f106";
+  font-family: fontawesome;
+  font-size: 20px;
+  line-height: 30px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  transition: 0.3s linear all;
+  vertical-align: middle;
+  width: 50px;
+  transform: rotate(0deg);
+  padding-right:10px;
+}
+
+.accordion-style-4 #accordion-4-second .card-header[aria-expanded="false"]::before {
+  transform: rotate(0deg);
+  transition: 0.3s linear all;
+  content: "\f107";
+}
