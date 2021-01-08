@@ -18,6 +18,18 @@
     <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="style.css">
 
+
+    <!--Smartlook tracking code-->
+    <script type='text/javascript'>
+      window.smartlook||(function(d) {
+        var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+        var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+        c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
+        })(document);
+        smartlook('init', 'ae5197137efbd470aa752d594124dea69e9cff80');
+    </script>
+    <!-- End Smartlook tracking code -->
+    
     <!--Google Tag Manager-->
     <script>
         (function (w, d, s, l, i) {
@@ -104,14 +116,14 @@
                         <ul class="nav-list">
                             <li><a href="#home">HOME</a></li>
                             <li><a href="#programs">Programs</a></li>
-                            <li style="margin-top:-10px;" class="sub-nav-list"><a
-                                    href="micromasters_en.html">Micromasters</a></li>
-                            <li style="margin-top:-10px;" class="sub-nav-list"><a href="bootcamps_en.html">Bootcamps</a>
-                            </li>
+                            <li style="margin-top:-10px;" class="sub-nav-list"><a href="cursos-en-linea_en.html">Online
+                                    Courses</a></li>
                             <li style="margin-top:-10px;" class="sub-nav-list"><a href="capsules_en.html">Capsules</a>
                             </li>
                             <li style="margin-top:-10px;" class="sub-nav-list"><a
                                     href="liveonline_en.html">LiveOnLine</a>
+                            </li>
+                            <li style="margin-top:-10px;" class="sub-nav-list"><a href="bootcamps_en.html">Bootcamps</a>
                             </li>
                             <li style="margin-top:-10px;" class="sub-nav-list"><a href="ask_egade_en.html">Ask the EGADE
                                     Experts</a>
@@ -180,11 +192,11 @@
 
                                 <div id="p-item-1" class="grid-item element-item p-one">
                                     <!--<a class="item-link ajax-portfolio" href="portfolio-1.html" data-id="1">-->
-                                    <a class="item-link" href="micromasters_en.html" data-id="1">
+                                    <a class="item-link" href="cursos-en-linea_en.html" data-id="1">
                                         <div class="portfolio-contain">
                                             <img class="portfolio-img-intro-1" src="images/micromasters3.jpg"
-                                                alt="Micromasters" />
-                                            <div class="portfolio-text-intro-1">Micromasters&reg;
+                                                alt="Online Courses" />
+                                            <div class="portfolio-text-intro-1">Online Courses
 
                                                 <p class="portfolio-text-cat">
                                                     The strengths of a master’s degree in a flexible format MOOCs.</p>
@@ -285,13 +297,15 @@
                                             <img class="portfolio-img-intro-1" src="images/ask_egade.jpg"
                                                 alt="Ask the EGADE Experts" />
                                             <div class="portfolio-text-intro-5">Ask the EGADE Experts
-                                                <p class="portfolio-text-cat">Strategic answers for the business community</p>
+                                                <p class="portfolio-text-cat">Strategic answers for the business
+                                                    community</p>
                                             </div>
                                         </div>
                                         <div class="portfolio-text-holder">
                                             <div class="portfolio-text-wrapper">
                                                 <p class="portfolio-text">Ask the EGADE Experts</p>
-                                                <p class="portfolio-cat">Gain the right insights to face uncertainty.</p>
+                                                <p class="portfolio-cat">Gain the right insights to face uncertainty.
+                                                </p>
                                                 <p class="portfolio-btn-dark-brd-1">Videos <i
                                                         class="fas fa-arrow-right"></i></p>
                                             </div>
@@ -322,7 +336,14 @@
                             <h2 class="title">Fast-track your goals</h2>
                             <p>
                                 Find specialized content for your upcoming goals as a professional or entrepreneur.</p>
+
+                                <video controls width="100%">
+                                    <source src="videos/manifiesto.mp4" type="video/mp4">
+                                    Sorry, your browser doesn't support embedded videos.
+                                </video>
                         </div>
+
+
 
                         <nav class="nav-bar">
                             <div class="serv-link-cover block-right" data-jarallax-element="0 40">
@@ -544,41 +565,64 @@
                     <script src="https://kit.fontawesome.com/1c52d88e21.js" crossorigin="anonymous"></script>
 
                     <!-- Back to top -->
-                    <script>
-                        // Set a variable for our button element.
-                        const scrollToTopButton = document.getElementById('js-top');
-                        const scrollFunc = () => {
-                            // Get the current scroll value
-                            let y = window.scrollY;
+                    <!--
+            <script>
+                // Set a variable for our button element.
+                const scrollToTopButton = document.getElementById('js-top');
+                const scrollFunc = () => {
+                    // Get the current scroll value
+                    let y = window.scrollY;
 
-                            // If the scroll value is greater than the window height, let's add a class to the scroll-to-top button to show it!
-                            if (y > 100) {
-                                scrollToTopButton.className = "top-link show";
-                            } else {
-                                scrollToTopButton.className = "top-link hide";
-                            }
-                        };
-                        window.addEventListener("scroll", scrollFunc);
-                        const scrollToTop = () => {
-                            // Let's set a variable for the number of pixels we are from the top of the document.
-                            const c = document.documentElement.scrollTop || document.body.scrollTop;
+                    // If the scroll value is greater than the window height, let's add a class to the scroll-to-top button to show it!
+                    if (y > 100) {
+                        scrollToTopButton.className = "top-link show";
+                    } else {
+                        scrollToTopButton.className = "top-link hide";
+                    }
+                };
+                window.addEventListener("scroll", scrollFunc);
+                const scrollToTop = () => {
+                    // Let's set a variable for the number of pixels we are from the top of the document.
+                    const c = document.documentElement.scrollTop || document.body.scrollTop;
 
-                            // If that number is greater than 0, we'll scroll back to 0, or the top of the document.
-                            // We'll also animate that scroll with requestAnimationFrame:
-                            // https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
-                            if (c > 0) {
-                                window.requestAnimationFrame(scrollToTop);
-                                // ScrollTo takes an x and a y coordinate.
-                                // Increase the '10' value to get a smoother/slower scroll!
-                                window.scrollTo(0, c - c / 20);
-                            }
-                        };
-                        // When the button is clicked, run our ScrolltoTop function above!
-                        scrollToTopButton.onclick = function (e) {
-                            e.preventDefault();
-                            scrollToTop();
-                        }
+                    // If that number is greater than 0, we'll scroll back to 0, or the top of the document.
+                    // We'll also animate that scroll with requestAnimationFrame:
+                    // https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
+                    if (c > 0) {
+                        window.requestAnimationFrame(scrollToTop);
+                        // ScrollTo takes an x and a y coordinate.
+                        // Increase the '10' value to get a smoother/slower scroll!
+                        window.scrollTo(0, c - c / 20);
+                    }
+                };
+                // When the button is clicked, run our ScrolltoTop function above!
+                scrollToTopButton.onclick = function (e) {
+                    e.preventDefault();
+                    scrollToTop();
+                }
+            </script>
+            -->
+
+                    <!-- Chatbot -->
+                    <script type="text/javascript">
+                        (function (d, m) {
+                            var kommunicateSettings = {
+                                "appId": "35d87d6f354c9e442c3a83702d1da8eba",
+                                "popupWidget": true,
+                                "automaticChatOpenOnNavigation": true
+                            };
+                            var s = document.createElement("script");
+                            s.type = "text/javascript";
+                            s.async = true;
+                            s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+                            var h = document.getElementsByTagName("head")[0];
+                            h.appendChild(s);
+                            window.kommunicate = m;
+                            m._globals = kommunicateSettings;
+                        })(document, window.kommunicate || {});
+                        /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
                     </script>
+
 
                     <!--=================== SCRIPT END ===================-->
 

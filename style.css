@@ -233,6 +233,29 @@ img.block-right {
     margin-bottom: 20px;
 }
 
+.overlay {
+    position: absolute;
+    top: -10px;
+    z-index: 10;
+    width: 100px;
+    height: 120px;
+    background: rgba(48,186,198,0.7);
+    transform: skew(-58.25deg);
+    left: -40px;
+}
+
+.overlay-text {
+    position: absolute;
+    transform: rotate(-33deg);
+    color: #fff;
+    z-index: 20;
+    top: 20px;
+    left: 2px;
+    font-size: .9rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
 
 /* ===================================
     2. Header / Menu CSS

@@ -4,12 +4,27 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 /*-- Carousel --*/
-$('.modal').on('hidden.bs.modal', function(e) {
+$('.modal').on('hidden.bs.modal', function (e) {
     var $iframes = $(e.target).find('iframe');
-    $iframes.each(function(index, iframe){
-    $(iframe).attr('src', $(iframe).attr('src'));
+    $iframes.each(function (index, iframe) {
+        $(iframe).attr('src', $(iframe).attr('src'));
     });
-  })
+})
+
+$('.modal').on('hidden.bs.modal', function (e) {
+    document.getElementById("stop-video-9").pause();
+    document.getElementById("stop-video-9").currentTime = 0;
+})
+
+$('body').on('hidden.bs.modal', '.modal', function () {
+    $('video').get(0).load();
+});
+
+/*
+    $('#ModalCenter9').on('hidden.bs.modal', function (event) {
+        $('.stop-modal')[0].pause();
+      });
+*/
 
 $('.modal').on('shown.bs.modal', function (e) {
     $('.carousel').carousel('pause');
@@ -167,4 +182,18 @@ $('.ask-cat-1-launch-6').click(function () {
     $('#ask-cat-1-play-6').attr('src',
         'https://prd20vod01.itesm.mx/VenusScript/iframe.html?ec=aQBkAFYAaQBkAGUAbwA9ADEANQAxADYANAAmAHQAaQBwAG8APQBDAEEAVAA=&player=MDE5YTgwMTE2NWMxNDkxM2MwMTEyMTJh'
     );
+});
+
+$('.ask-cat-1-launch-7').click(function () {
+    $('#ask-cat-1-play-7').attr('src', 'videos/videos-ask-7.mp4');
+});
+
+$('.ask-cat-1-launch-8').click(function () {
+    $('#ask-cat-1-play-8').attr('src',
+        'https://prd20vod01.itesm.mx/VenusScript/iframe.html?ec=aQBkAFYAaQBkAGUAbwA9ADEANQAyADgAMQAmAHQAaQBwAG8APQBDAEEAVAA=&player=MDE5YTgwMTE2NWMxNDkxM2MwMTEyMTJh'
+    );
+});
+
+$('.ask-cat-1-launch-9').click(function () {
+    $('#ask-cat-1-play-9').attr('src', 'videos/videos-ask-9.mp4');
 });
